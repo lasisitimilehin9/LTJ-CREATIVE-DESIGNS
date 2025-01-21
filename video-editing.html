@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Editing - LTJ Creative Designs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="subpage-header">
+        <h1>Video Editing</h1>
+        <p>Transforming raw footage into polished, cinematic masterpieces.</p>
+    </header>
+
+    <section class="media-section">
+        <!-- Video 1 -->
+        <div class="media-item">
+            <video src="videos/video-editing-demo1.mp4" controls></video>
+            <h3>Event Highlights</h3>
+            <p>A professionally edited highlights reel capturing the best moments of an event.</p>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="media-item">
+            <video src="videos/video-editing-demo2.mp4" controls></video>
+            <h3>Product Promo</h3>
+            <p>A sleek and engaging promotional video designed for a product launch.</p>
+        </div>
+
+        <!-- Image -->
+        <div class="media-item">
+            <img src="images/video-editing-demo.jpg" alt="Editing Interface">
+            <h3>Editing Workflow</h3>
+            <p>A behind-the-scenes look at our professional editing setup and workflow.</p>
+        </div>
+    </section>
+<footer>
+    &copy; <span id="year"></span> LTJ Creative Designs. All rights reserved.
+</footer>
+
+<script>
+    // Automatically update the year
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+    
+</body>
+</html>

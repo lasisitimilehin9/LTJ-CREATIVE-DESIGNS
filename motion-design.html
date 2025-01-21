@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motion Design - LTJ Creative Designs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="subpage-header">
+        <h1>Motion Design</h1>
+        <p>Discover how we bring ideas to life through captivating animations.</p>
+    </header>
+
+    <section class="media-section">
+        <!-- Video 1 -->
+        <div class="media-item">
+            <video src="videos/motion-design-demo1.mp4" controls></video>
+            <h3>A Full Animated video</h3>
+            <p>This involves Logo animation,also an explaner video .</p>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="media-item">
+            <video src="videos/motion-design-demo2.mp4" controls></video>
+            <h3>Explainer Video</h3>
+            <p>A professional explainer animation designed for impactful storytelling.</p>
+        </div>
+
+        <!-- Image 1 -->
+        <div class="media-item">
+            <img src="images/motion-design-demo.jpg" alt="Animated Social Media Campaign">
+            <h3>what is motion design</h3>
+        </div>
+    </section>
+
+    <footer>
+    &copy; <span id="year"></span> LTJ Creative Designs. All rights reserved.
+</footer>
+
+<script>
+    // Automatically update the year
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</html>

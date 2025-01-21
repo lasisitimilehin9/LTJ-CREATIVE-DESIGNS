@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTJ Creative Designs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="hero">
+            <img src="logo.png" alt="LTJ Creative Designs Logo" class="logo">
+            <h1>LTJ Creative Designs</h1>
+            <p class="tagline">Inspired Creativity</p>
+            <a href="#services" class="cta-button">Explore Our Services</a>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At LTJ Creative Designs, we specialize in delivering top-tier motion designs, graphic designs, video editing, and website development tailored to elevate your brand's presence.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Motion Design</h3>
+                <p>Crafting high-quality animations to bring your ideas to life.</p>
+                <a href="motion-design.html" class="learn-more">Learn More</a>
+            </div>
+            <div class="service-card">
+                <h3>Graphic Design</h3>
+                <p>Delivering visuals that captivate and resonate with audiences.</p>
+                <a href="graphic-design.html" class="learn-more">Learn More</a>
+            </div>
+            <div class="service-card">
+                <h3>Video Editing</h3>
+                <p>Turning raw footage into compelling visual stories.</p>
+                <a href="video-editing.html" class="learn-more">Learn More</a>
+            </div>
+            <div class="service-card">
+                <h3>Website Design</h3>
+                <p>Building responsive, aesthetically pleasing websites.</p>
+                <a href="website-design.html" class="learn-more">Learn More</a>
+            </div>
+        </div>
+    <section id="portfolio">
+    <h2>Our Portfolio</h2>
+    <p>Explore projects that highlight our skills and creativity.</p>
+    <div class="portfolio-grid">
+        <!-- Motion Design -->
+        <div class="portfolio-item">
+            <div class="video-container">
+                <video src="videos/demo-motion.mp4" controls></video>
+            </div>
+            <h3>Demo Animated Logo</h3>
+            <p>A sleek animation created to enhance brand identity.</p>
+        </div>
+
+        <!-- Graphic Design -->
+        <div class="portfolio-item">
+            <img src="images/demo-graphic.jpg" alt="Social Media Campaign">
+            <h3>Social Media Campaign</h3>
+            <p>Eye-catching designs for a mock social media campaign.</p>
+        </div>
+
+        <!-- Video Editing -->
+        <div class="portfolio-item">
+            <div class="video-container">
+                <video src="videos/demo-editing.mp4" controls></video>
+            </div>
+            <h3>Event Promo Video</h3>
+            <p>Highlighting an event with professional editing techniques.</p>
+        </div>
+
+        <!-- Website Design -->
+        <div class="portfolio-item">
+            <img src="images/demo-website.jpg" alt="E-Commerce Demo Site">
+            <h3>E-Commerce Demo Site</h3>
+            <p>A professional and responsive design for an online store.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61569495383214&mibextid=ZbWKwL
+" target="_blank">Facebook</a>
+            <a href="https://https://x.com/LTJ_CREATIVEDEG?s=09" target="_blank">X</a>
+            <a href="https://www.instagram.com/ltj_creativedesigns/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/timi-joshua-400001343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+    &copy; <span id="year"></span> LTJ Creative Designs. All rights reserved.
+</footer>
+
+<script>
+    // Automatically update the year
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</html>
